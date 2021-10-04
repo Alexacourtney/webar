@@ -27,19 +27,21 @@
 <body>
   <div id="card">
     <!-- All you need to put beautiful, interactive 3D content on your site: -->
-    <!-- model-viewer src="Model/mirror_glb.glb"
+    <model-viewer src="Model/mirror_glb.glb"
                   ios-src="Model/table.usdz"
-                  alt=""
+                  alt="A 3D model of some wall art"
                   shadow-intensity="0"
 				  id="viewer-singleton"
                   camera-controls
 				  camera-orbit="220deg 70deg 20m"
 				  safari chrome
                    ar
+		  		   ar-placement="wall"
+		  		   ar-modes="webxr scene-viewer quick-look"
 				   ar-scale=""
 				   exposure="1"
-				  poster="Images/Logo.png" -->
-<model-viewer src="../../assets/boom_2_.glb" ar ar-placement="wall" ar-modes="webxr scene-viewer quick-look" camera-controls alt="A 3D model of some wall art"></model-viewer>
+				  poster="Images/Logo.png">
+<!-- model-viewer src="../../assets/boom_2_.glb" ar ar-placement="wall" ar-modes="webxr scene-viewer quick-look" camera-controls alt="A 3D model of some wall art"-->
     </model-viewer>
     <section class="attribution">
       <h1> Mirror </h1>
